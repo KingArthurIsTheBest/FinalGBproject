@@ -4,8 +4,8 @@
 }
 
 header {
-    top: 50px;
-    max-width: 1440px;
+    
+    margin-top: 50px;
     height: 80px;
     padding: 0px 112px;
 }
@@ -39,8 +39,12 @@ header {
     letter-spacing: -0.16px;
 }
 
+main {
+    background-color: black;
+}
+
 .pusk-1 {
-    margin-top: 296px;
+    padding-top: 296px;
     width: 1094px;
     height: 220px;
     flex-shrink: 0;
@@ -82,6 +86,7 @@ header {
     text-align: center;
 }
 .pusk-2--p {
+    padding-top: 40px;
     width: 1009px;
     color: var(--text-secondary, #D1D1D1);
     font-family: Inter;
@@ -91,4 +96,69 @@ header {
     line-height: 24px;
     letter-spacing: -0.18px;
     text-align: center;
+}
+
+.pusk-2_info-blcok {
+    padding-top: 80px;
+    height: 164px;
+    max-width: 216px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pusk-2_info-block--block {
+    width: 392px;
+    max-height: 104px;
+}
+
+.test {
+    display: flex;
+    padding: 16px;
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    backdrop-filter: blur(3px);
+}
+
+.block-1--txt {
+    display: flex;
+    width: 392px;
+    height: 104px;
+    padding: 16px;
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    backdrop-filter: blur(3px);
+}
+.pusk-2-blcok-1-img {
+    
+}
+.pusk-2-blcok-1-h2 {
+    width: 350px;
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-left: 16px;
+}
+.pusk-2-blcok-1-p {
+    margin: 16px;
+    display: flex;
+    align-self: flex-start;
+    width: 350px;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.16px;
 }
