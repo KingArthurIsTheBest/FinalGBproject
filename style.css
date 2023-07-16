@@ -1,0 +1,40 @@
+* {
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    top: 50px;
+    max-width: 1440px;
+    height: 80px;
+    padding: 0px 112px;
+}
+
+.header-logo__logo {
+    width: 110px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+
+.links {
+}
+
+.header-links__vacansy {
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
+.header-links__contacts {   
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
