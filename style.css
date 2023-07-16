@@ -38,3 +38,57 @@ header {
     line-height: 24px;
     letter-spacing: -0.16px;
 }
+
+.pusk-1 {
+    margin-top: 296px;
+    width: 1094px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.main-pusk-1--p {
+    width: 445px;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+.main-pusk-1--h1 {
+    width: 1094px;
+    color: var(--text-primary, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0.8px;
+}
+
+.pusk-2 {
+    margin-top: 386px;
+}
+
+.pusk-2--h1 {
+    width: 1009px;
+    color: var(--text-primary, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+    text-align: center;
+}
+.pusk-2--p {
+    width: 1009px;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    text-align: center;
+}
