@@ -169,7 +169,6 @@ main {
 }
 
 .make-money--h1 {
-    width: 1094px;
     color: var(--text-primary, #FFF);
     font-family: Helvetica Neue;
     font-size: 60px;
@@ -177,10 +176,10 @@ main {
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -0.6px;
-    text-align: center;
+
 }
 .make-money--p {
-    width: 1010px;
+
     padding-top: 20px;
     color: var(--text-secondary, #D1D1D1);
     font-family: Inter;
@@ -189,7 +188,7 @@ main {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.18px;
-    text-align: center;
+
 }
 
 .make-money---img-block-text {
@@ -250,4 +249,84 @@ main {
     
 .main {
 
+}
+
+.best-wallet {
+    padding-top: 284px;
+}
+
+.best-wallet-h1 {
+
+    color: var(--background-white, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+    text-align: center;
+}
+
+.best-wallet-text {
+    padding-top: 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    text-align: center;
+}
+
+.best-wallet-card {
+    padding-right: 20px;
+}
+.d-flex {
+}
+.best-wallet-card-img {
+    width: 60px;
+    height: 60px;
+}
+.best-wallet-card-txt {
+    display: flex;
+    width: 538px;
+    padding: 24px 16px;
+    border-top: 2px solid var(--surface-color-2, #40FFE4);
+    border-right: 1px solid var(--surface-color-2, #40FFE4);
+    border-bottom: 2px solid var(--surface-color-2, #40FFE4);
+    border-left: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    backdrop-filter: blur(3px);
+}
+.best-wallet-card-txt-H {
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+}
+.best-wallet-card-txt-p {
+    align-self: stretch;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
+
+.best-wallet-card-2 {
+    align-content: flex-end;
+}
+
+.best-wallet-card-1 {
+    align-content: flex-start;
 }
