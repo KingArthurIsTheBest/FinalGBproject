@@ -217,7 +217,8 @@ main {
     padding-top: 52px;
     width: 262px;
     height: 335px;
-main-blovk-dont-see
+}    
+.main-blovk-dont-see {
 
 }
 
@@ -247,5 +248,6 @@ main-blovk-dont-see
     backdrop-filter: blur(3px);
 }
     
-main
+.main {
+
 }
