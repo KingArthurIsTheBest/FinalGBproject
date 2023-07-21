@@ -515,3 +515,60 @@ main {
     line-height: 20px;
     letter-spacing: -0.16px;
 }
+
+.behind-it {
+    padding-top: 252px;
+}
+.container {
+}
+.behind-it-H {
+    color: var(--background-white, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+}
+.behind-it-p {
+    padding-top: 40px;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+}
+.behind-it-card-block {
+    display: flex;
+    height: 164px;
+    width: 1216px;
+    padding: 24px 16px;
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    backdrop-filter: blur(3px);
+}
+.behind-it-cardd-block-H {
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+}
+.behind-it-card-block-p {
+    width: 891px;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
