@@ -217,5 +217,35 @@ main {
     padding-top: 52px;
     width: 262px;
     height: 335px;
+main-blovk-dont-see
+
+}
+
+.dont-see {
+    padding-top: 279px;
+    height: 104px;
+}
+
+.blue-block {
+    width: 219px;
+    height: 104px;
+    display: flex;
+    background: var(--surface-color-2, #40FFE4);
+}
+
+.text-block {
+    display: flex;
+    width: 1010px;
+    height: 104px;
+    padding: 16px;
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    backdrop-filter: blur(3px);
+}
     
+main
 }
