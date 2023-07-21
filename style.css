@@ -217,6 +217,7 @@ main {
     padding-top: 52px;
     width: 262px;
     height: 335px;
+main-blovk-dont-see
 
 }
 
@@ -244,4 +245,7 @@ main {
     align-items: flex-start;
     gap: 8px;
     backdrop-filter: blur(3px);
+}
+    
+main
 }
