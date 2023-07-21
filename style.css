@@ -431,3 +431,87 @@ main {
 .txt {
     padding-top: 60px;
 }
+
+.pusk-is-people {
+    padding-top: 252px;;
+}
+.pusk-is-people-h1 {
+
+    color: var(--background-white, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+
+}
+.pusk-is-people-p {
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    padding-top: 40px;
+}
+.cards-block {
+    padding-right: 20px;
+    padding-bottom: 36px;
+}
+.cards-block-card {
+}
+.cards-blokc-card-img {
+}
+.pusk-people--txt-block {
+
+    width: 558px;
+    height: 104px;
+    
+    padding: 16px;
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+
+    align-items: flex-start;
+
+}
+.pusk-people--txt-block-h1 {
+    align-self: stretch;
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.pusk-people--txt-block-p {
+    align-self: stretch;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+}
+
+.pusk-is-people-btn {
+    display: flex;
+    width: 280px;
+    padding: 20px 10px;
+    background: var(--button-primaty, #40FFE4);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--button-on-primary, #121212);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+}
