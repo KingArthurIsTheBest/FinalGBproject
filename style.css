@@ -672,3 +672,59 @@ main {
     background: var(--surface-color-2, #40FFE4);
     flex-shrink: 0;
 }
+
+.lets-speak {
+    padding-top: 260px;
+}
+.container {
+}
+.lets-speak-H {
+    color: var(--background-white, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+
+}
+.lets-speak-p {
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+}
+.info-row {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.info-row-block-1 {
+    padding-right: 72px;
+}
+.info-row-block-H {
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+}
+.info-row-block-p {
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+}
+.info-row-block-2 {
+    padding-right: 72px;
+}
+.info-row-block-3 {
+}
