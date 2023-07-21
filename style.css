@@ -330,3 +330,65 @@ main {
 .best-wallet-card-1 {
     align-content: flex-start;
 }
+
+.yet-plugins {
+    padding-top: 260px;
+}
+
+.yet-plugins-H1 {
+    color: var(--background-white, #FFF);
+    font-family: Helvetica Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.6px;
+    padding-bottom: 60px;
+}
+
+.yet-plugins-txt {
+    width: 515px;
+    height: 160px;
+    padding: 24px 16px;
+    
+    border: 2px solid var(--surface-color-2, #40FFE4);
+    box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
+    background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
+}
+
+.yet-plugins-card {
+    padding-bottom: 20px;
+}
+
+.yet-plugins-cotent {
+    display: flex;
+    flex-direction: row;
+}
+
+.yet-plugins-txt--h1 {
+    color: var(--text-primary, #FFF);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+}
+.yet-plugins-txt--p {
+    align-self: stretch;
+    color: var(--text-secondary, #D1D1D1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+}
+
+.new-tab-img {
+    display: flex;
+    padding: 4px;
+    background: var(--button-primaty, #40FFE4);
+    align-items: flex-start;
+    gap: 10px;
+}
