@@ -101,11 +101,8 @@ main {
 
 .pusk-2_info-blcok {
     padding-top: 80px;
-    height: 164px;
-    max-width: 216px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
 }
 .pusk-2_info-block--block {
     width: 392px;
@@ -122,6 +119,7 @@ main {
     align-items: flex-start;
     gap: 8px;
     backdrop-filter: blur(3px);
+    height: 148px;
 }
 
 .block-1--txt {
@@ -197,6 +195,7 @@ main {
     flex-shrink: 0;
 }
 
+
 .make-money---img-block {
     display: flex;
     max-width: 598px;
@@ -223,16 +222,17 @@ main {
 }
 
 .dont-see {
-    padding-top: 279px;
-    height: 104px;
+
+    margin-top: 80px;
+    background: var(--surface-color-2, #40FFE4);
 }
 
-.blue-block {
+/* .blue-block {
     width: 219px;
     height: 104px;
     display: flex;
     background: var(--surface-color-2, #40FFE4);
-}
+} */
 
 .text-block {
     display: flex;
@@ -243,7 +243,6 @@ main {
     box-shadow: 3px 3px 5px 0px rgba(0, 224, 255, 0.40) inset, -3px -3px 5px 0px rgba(0, 224, 255, 0.40) inset;
     background: var(--surface-background, url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat, rgba(19, 19, 19, 0.60));
     flex-direction: column;
-    align-items: flex-start;
     gap: 8px;
     backdrop-filter: blur(3px);
 }
